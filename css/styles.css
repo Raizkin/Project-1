@@ -1,10 +1,17 @@
 :root {
   --main-color: #94cfff;
   --title-color: #ffffff;
-  --fake-color: #26C6EA;
-  --button-color: #26C7EA;
-  --color: #0A3853;
-  --desk-color: #141414
+  --fake-color: #26c6ea;
+  --button-color: #26c7ea;
+  --color: #0a3853;
+  --desk-color: #141414;
+  --text-c0lor: #000000;
+}
 
-  
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Headland One", serif; */
+/* font-family: "Hammersmith One", sans-serif; */
+
+.body {
+  font-family: "Inter", sans-serif;
 }
