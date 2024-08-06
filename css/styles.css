@@ -6,6 +6,7 @@
   --color: #0a3853;
   --desk-color: #141414;
   --text-c0lor: #000000;
+  --backgroundbnt-color: #0b0e66;
 }
 
 /* font-family: "Inter", sans-serif; */
@@ -14,94 +15,365 @@
 
 .body {
   font-family: "Inter", sans-serif;
-  background-color: grey;
+  background-color: gray;
 }
 
+.container {
+  width: 1032;
+}
 /* header */
 
+.header {
+  background-image: url(../img/header-footer.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.logo {
+  width: 186px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.header-navigator {
+}
+
+.header-list {
+  display: flex;
+}
+.header-link {
+  color: var(--title-color);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.header-:nth-child(1) {
+}
 .header-btn {
   font-family: HeadlandOne;
+  color: var(--fake-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 /* join clan */
+.hero {
+}
+
+.hero-title {
+  color: var(--title-color);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  width: 298px;
+  height: 96px;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  color: var(--title-color);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  width: 376px;
+  height: 123px;
+  flex-shrink: 0;
+}
 
 .hero-btn {
   font-family: HeadlandOne;
+  color: var(--button-color);
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+width: 260px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 45px 0px;
+border: 3px solid var(--button-color);
+background: var(--backgroundbnt-color);
 }
 
 /* more people */
+.quote-title {
+  color: #0A3853;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.25;
+}
 
+.quiote-avto {
+
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.21;
+}
+
+.quiote-img {
+  width: 400px;
+  height: 120px;
+  flex-shrink: 0;
+}
 /* trailer */
+.trailer {
+}
 
 .trailer-bnt {
   font-family: HeadlandOne;
-
+  color: var(--button-color);
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+border-radius: 45px 0px;
+border: 3px solid var(--button-color);
+background: var(--backgroundbnt-color);
+width: 260px;
+height: 80px;
+flex-shrink: 0;
 }
 
 /* all energy */
 
+.energy-title {
+  color: var(--desk-color);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.energy-avtor {
+  color: var(--text-c0lor);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.energy-img {
+  width: 400px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
 /* learn */
 
 .learn-title {
+  color: var(--desk-color);
   font-family: HeadlandOne;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 .learn-hello {
+  color: var(--desk-color);
   font-family: HeadlandOne;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1; 
+}
 
+.learn-hello-img {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .learn-hello-translate {
+  color: var(--text-c0lor);
   font-family: HeadlandOne;
-
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1; 
 }
 
 .learn-how {
+  color: var(--color);
   font-family: HeadlandOne;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1; 
+}
 
+.learn-how-img {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .learn-how-translate {
+  color: var(--text-c0lor);
   font-family: HeadlandOne;
-
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1; 
 }
 
 .learn-good {
+  color: var(--desk-color);
   font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1; 
+}
 
+.learn-good-img {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .learn-good-translate {
+  color: var(--text-c0lor);
   font-family: HeadlandOne;
-
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .learn-thank {
+  color: var(--desk-color);
   font-family: HeadlandOne;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px; 
+}
 
+.learn-thank-img {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .learn-thank-translate {
+  color: var(--text-c0lor);
   font-family: HeadlandOne;
-
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .learn-see {
+  color: var(--desk-color);
   font-family: HeadlandOne;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1; 
+}
 
+.learn-see-img {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .learn-see-translate {
+  color: var(--text-c0lor);
   font-family: HeadlandOne;
-
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
 }
-.learn-come {
-  font-family: HeadlandOne;
 
+.learn-come {
+  color: var(--desk-color);
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1; 
+}
+
+.learn-come-img {
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.learn-come-translate {
+  color: var(--text-c0lor);
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1; 
 }
 
 /* mother */
 
+.mother-title {
+  color: var(--desk-color);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.22;
+}
+
+.mother-avtor {
+  color: var(--text-c0lor);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.mother-img {
+  width: 400px;
+  height: 120px;
+  flex-shrink: 0;
+}
 
 /* footer */
+
+.footer-logo {
+  width: 183px;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.palka {
+  width: 2px;
+  height: 153px;
+}
+
+.footer-faq {
+  color: var(--title-color);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.footer-tire {
+  width: 269px;
+  height: 0px;
+  flex-shrink: 0;
+}
+
+.footer-address {
+  color: var(--title-color);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.footer-data-made {
+  color: var(--title-color);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+}

@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project-1</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="stylesheet"
@@ -19,34 +17,40 @@
       href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
   </head>
   <body class="body">
     <header class="header">
-      <a href="./index.html"><img src="./img/logo.png" alt="logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Головна</a></li>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Контакти</a></li>
+      <div class="container">
+      <a href="./index.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+      <div class="header-navigator">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item"><a href="./index.html" class="header-link">Головна</a></li>
+          <li class="header-item"><a href="#" class="header-link" >Про нас</a></li>
+          <li class="header-item"><a href="#" class="header-link" >Контакти</a></li>
         </ul>
       </nav>
+    </div>
       <button type="button" class="header-btn">Увійти</button>
+    </div>
     </header>
     <main>
       <!-- Секція герой -->
       <section class="hero">
-        <ul class="hero-list">
-        <li><p class="hero-title">
+        <div class="hero-list">
+      <p class="hero-title">
           Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu
           Na'viyä hapxì. Säwem nìayoeng!
-        </p></li>
-        <li><img src="./img/strela.png" alt="strela" class="hero-img" /></li>
-        <li><p class="hero-title-translate">
+        </p>
+      <img src="./img/strela.png" alt="strela" class="hero-img" />
+      <p class="hero-title-translate">
           Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
           залишається, щоб стати частиною Народу. Борись разом з нами!
-        </p></li>
-        <li><button type="button" class="hero-btn">Приєднатися до клану</button></li>
-      </ul>
+        </p>
+      <button type="button" class="hero-btn">Приєднатися до клану</button>
+    </div>
         <ul class="videos">
           <li class="videos"><img src="./img/instagram.png" alt="instagram" class="class photo"></li >
           <li class="videos"><img src="./img/twitter.png" alt="twitter" class="class groups"></li >
@@ -63,7 +67,7 @@
         <img src="./img/orel.png" alt="orel" class="quiote-img" />
       </section>
       <!-- trailer -->
-      <section>
+      <section class="trailer">
         <button type="button" class="trailer-bnt">Дивитись трейлер</button>
       </section>
       <!-- energy -->
@@ -80,7 +84,7 @@
         <ul class="learn">
           <li class="learn-hello-list">
             <p class="learn-hello">Привіт</p>
-            <img src="./img/strela-left.png" alt="strela-left" class="learn" />
+            <img src="./img/strela-left.png" alt="strela-left" class="learn-hello-img" />
             <p class="learn-hello-translate">Kaltxì</p>
           </li>
           <li class="learn-how-list">
@@ -95,7 +99,7 @@
           </li>
           <li class="learn-thank-list">
             <p class="learn-thank">Дякую</p>
-            <img src="./img/strela-left.png" alt="strela-left" />
+            <img src="./img/strela-left.png" alt="strela-left" class="learn-thank-img" />
             <p class="learn-thank-translate">Irayo si</p>
           </li>
           <li class="learn-see-list">
@@ -124,9 +128,9 @@
 <p class="footer-faq">Q&A E-mail</p>
 <img src="./img/tire.png" alt="tire" class="footer-tire">
 <a href="mailto:avatartwowqa@gmail.com" class="footer-address">avatartwowqa@gmail.com </a>
-<p class="footer-faq-second">Cooperation E-mail</p>
-<img src="./img/tire.png" alt="tire" class="footer-tire-second">
-<a href="avatartwowqa@gmail.com" class="footer-address-second">avatartwowqa@gmail.com</a>
+<p class="footer-faq">Cooperation E-mail</p>
+<img src="./img/tire.png" alt="tire" class="footer-tire">
+<a href="avatartwowqa@gmail.com" class="footer-address">avatartwowqa@gmail.com</a>
 </address>
 <p class="footer-data-made">©2023 Avatar: The Way Of Water. All rights reserved</p>
     </footer>
