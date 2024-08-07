@@ -20,27 +20,37 @@
 
 .container {
   width: 1032;
+  display: flex;
 }
 /* header */
 
 .header {
-  background-image: url(../img/header-footer.jpg);
+ 
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 3px solid var(--title-color);
+  
 }
 
 .logo {
   width: 186px;
   height: 72px;
   flex-shrink: 0;
+  margin-right: 204px;
+  margin-left: 168px;
+  margin-top: 39px;
+  margin-bottom: 39px;
 }
 .header-navigator {
 }
 
 .header-list {
   display: flex;
+  margin-top: 63px;
+  margin-bottom: 63px;
+  gap: 38px;
 }
 .header-link {
   color: var(--title-color);
@@ -48,20 +58,33 @@
   font-size: 20px;
   font-weight: 300;
   line-height: 1.2;
+  display: flex;
+
 }
 
 .header-:nth-child(1) {
 }
 .header-btn {
   font-family: HeadlandOne;
-  color: var(--fake-color);
+  background-color: var(--backgroundbnt-color);
   font-size: 20px;
+  color: var(--fake-color);
   font-weight: 400;
   line-height: 1.25;
+  width: 141px;
+  height: 41.694px;
+  flex-shrink: 0;
+  border-radius: 35px 0px 35px 0px ;
+  border: 1px solid var(--fake-color);
+  margin-top: 54px;
+  margin-bottom: 54px;
+  margin-left: 212px;
+
 }
 
 /* join clan */
 .hero {
+
 }
 
 .hero-title {
@@ -292,7 +315,6 @@ flex-shrink: 0;
   color: var(--desk-color);
   font-family: HeadlandOne;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1; 
 }
