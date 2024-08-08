@@ -15,7 +15,6 @@
 
 .body {
   font-family: "Inter", sans-serif;
-  background-color: gray;
 }
 
 .container {
@@ -33,6 +32,9 @@ outline: 1px solid red;
   align-items: center;
   justify-content: space-between;
   border-bottom: 3px solid var(--title-color);
+  background-image: url(../img/header-footer.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
 }
 
 .header-box {
@@ -61,9 +63,6 @@ align-items: center;
   display: flex;
 
 }
-
-.header-:nth-child(1) {
-}
 .header-btn {
   font-family: HeadlandOne;
   background-color: var(--backgroundbnt-color);
@@ -87,6 +86,9 @@ align-items: center;
   border-bottom: 2px solid yellow;
   padding-top: 180px;
   padding-bottom: 179px;
+  background-image: url(../img/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-box {
@@ -154,6 +156,10 @@ width: 34px;
 
 /* more people */
 
+.more-people {
+border-bottom: 2px solid yellow;
+}
+
 .quote-title {
   color: #0A3853;
   font-family: Inter;
@@ -171,24 +177,24 @@ width: 34px;
   font-weight: 400;
   line-height: 1.2;
   margin-top: 16px;
-  margin-right: 654px;
-  margin-left: 655px;
+  text-align: center;
   margin-bottom: 16px;
 }
 
 .quiote-img {
-  width: 400px;
-  height: 120px;
-  flex-shrink: 0;
-  margin-left: 520px;
-  margin-right: 520px;
+  display: flex;
+  text-align: center;
   margin-top: 8px;
   margin-bottom: 10px;
+  margin: auto;
 }
 /* trailer */
 .trailer {
   border-bottom: 2px solid yellow;
-  border-top: 2px solid yellow;
+  background-image: url(../img/trailer-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .trailer-bnt {
@@ -215,7 +221,7 @@ width: 34px;
 /* all energy */
 
 .energy {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid yellow;
 }
 
 .energy-title {
@@ -235,18 +241,16 @@ width: 34px;
   font-weight: 400;
   line-height: 1.2;
   margin-top: 16px;
-  margin-right: 654px;
-  margin-left: 655px;
+  text-align: center;
   margin-bottom: 16px;
 }
 
 .energy-img {
-  width: 400px;
-  height: 120px;
+  display: flex;
+  text-align: center;
   margin-top: 8px;
   margin-bottom: 10px;
-  margin-left: 520px;
-  margin-right: 520px;
+  margin: auto;
 }
 
 /* learn */
@@ -413,20 +417,17 @@ margin-bottom: 45px;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
- margin-right: 686;
- margin-left: 686px;
   margin-top: 16px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .mother-img {
-  width: 400px;
-  height: 120px;
-margin-top: 8px;
-margin-bottom: 10px;
-margin-right: 519px;
-margin-left: 519px;
+  display: flex;
+  text-align: center;
   margin-top: 8px;
   margin-bottom: 10px;
+  margin: auto;
 }
 
 /* footer */
