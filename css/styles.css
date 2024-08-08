@@ -19,29 +19,29 @@
 }
 
 .container {
-  width: 1032;
-  display: flex;
+  width: 1056px;
+padding-left: 12px;
+padding-right: 12px;
+margin: 0 auto;
+outline: 1px solid red;
 }
 /* header */
 
 .header {
- 
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 3px solid var(--title-color);
-  
+}
+
+.header-box {
+display: flex;
+align-items: center;
 }
 
 .logo {
-  width: 186px;
-  height: 72px;
-  flex-shrink: 0;
-  margin-right: 204px;
-  margin-left: 168px;
-  margin-top: 39px;
-  margin-bottom: 39px;
+  margin-right: 168px;
 }
 .header-navigator {
 }
@@ -84,10 +84,15 @@
 
 /* join clan */
 .hero {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid yellow;
+  padding-top: 180px;
+  padding-bottom: 179px;
 }
 
-.hero-list{
+.hero-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-title {
@@ -97,17 +102,10 @@
   font-weight: 400;
   line-height: 1.2;
   width: 298px;
-  height: 96px;
-  flex-shrink: 0;
-  margin-left: 204px;
-  margin-top: 280px;
 }
 
 .hero-img {
   width: 152px;
-  height: 40px;
-  flex-shrink: 0;
-  margin-left: 257px;
 }
 
 .hero-title-translate {
@@ -117,38 +115,44 @@
   font-weight: 400;
   line-height: 1.2;
   width: 376px;
-  height: 123px;
-  flex-shrink: 0;
-  margin-left: 204px;
-  margin-bottom: 52px;
 }
 
 
 .hero-btn {
   font-family: HeadlandOne;
   color: var(--button-color);
-text-align: center;
-font-size: 24px;
-font-weight: 400;
-line-height: 1.25;
-width: 260px;
-height: 80px;
-flex-shrink: 0;
-border-radius: 45px 0px;
-border: 3px solid var(--button-color);
-background: var(--backgroundbnt-color);
-margin-left: 204px;
-margin-bottom: 179px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.25;
+  border-radius: 45px 0px;
+  border: 3px solid var(--button-color);
+  background: var(--backgroundbnt-color);
+  padding: 10px 30px;
+  margin-top: 42px;
 }
 
 .videos {
-justify-content: flex-end;
 display: flex;
-
+flex-direction: column;
+gap: 25px;
+text-align: end;
 }
 
-/* more people */
+.hero-video {
+  width: 30px;
+  height: 30px;
+}
 
+.video:nth-child(2) > .hero-video{
+width: 34px;
+}
+
+.video:nth-child(3) > .hero-video{
+  width: 50px;
+  }
+
+/* more people */
 
 .quote-title {
   color: #0A3853;
@@ -161,13 +165,15 @@ display: flex;
 }
 
 .quiote-avtor {
-  color: #000;
-  text-align: center;
+  color: var(--text-c0lor);
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
-  line-height: 1.21;
+  line-height: 1.2;
   margin-top: 16px;
+  margin-right: 654px;
+  margin-left: 655px;
+  margin-bottom: 16px;
 }
 
 .quiote-img {
@@ -181,6 +187,8 @@ display: flex;
 }
 /* trailer */
 .trailer {
+  border-bottom: 2px solid yellow;
+  border-top: 2px solid yellow;
 }
 
 .trailer-bnt {
@@ -206,6 +214,10 @@ display: flex;
 
 /* all energy */
 
+.energy {
+  border-bottom: 2px solid red;
+}
+
 .energy-title {
   color: var(--desk-color);
   font-family: Inter;
@@ -223,14 +235,14 @@ display: flex;
   font-weight: 400;
   line-height: 1.2;
   margin-top: 16px;
-  text-align: center;
-  margin-top: 58px;
+  margin-right: 654px;
+  margin-left: 655px;
+  margin-bottom: 16px;
 }
 
 .energy-img {
   width: 400px;
   height: 120px;
-  flex-shrink: 0;
   margin-top: 8px;
   margin-bottom: 10px;
   margin-left: 520px;
@@ -392,6 +404,7 @@ margin-bottom: 45px;
   font-size: 36px;
   font-weight: 400;
   line-height: 1.22;
+  text-align: center;
 }
 
 .mother-avtor {
@@ -400,12 +413,20 @@ margin-bottom: 45px;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
+ margin-right: 686;
+ margin-left: 686px;
+  margin-top: 16px;
 }
 
 .mother-img {
   width: 400px;
   height: 120px;
-  flex-shrink: 0;
+margin-top: 8px;
+margin-bottom: 10px;
+margin-right: 519px;
+margin-left: 519px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 /* footer */
