@@ -15,6 +15,7 @@
 
 .body {
   font-family: "Inter", sans-serif;
+
 }
 
 .container {
@@ -158,6 +159,13 @@ width: 34px;
 
 .more-people {
 border-bottom: 2px solid yellow;
+padding-top: 75px;
+padding-bottom: 10px;
+}
+
+.people-box {
+  text-align: center;
+
 }
 
 .quote-title {
@@ -166,8 +174,7 @@ border-bottom: 2px solid yellow;
   font-size: 36px;
   font-weight: 400;
   line-height: 1.25;
-  margin-top: 75px;
-  text-align: center;
+  margin-bottom: 16px;
 }
 
 .quiote-avtor {
@@ -176,53 +183,49 @@ border-bottom: 2px solid yellow;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
-  margin-top: 16px;
-  text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
-.quiote-img {
-  display: flex;
-  text-align: center;
-  margin-top: 8px;
-  margin-bottom: 10px;
-  margin: auto;
-}
+
 /* trailer */
 .trailer {
   border-bottom: 2px solid yellow;
-  background-image: url(../img/trailer-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url(../img/trailer-background.jpg) lightgray 50% / cover no-repeat;
+  padding-top: 330px;
+  padding-bottom: 331px;
 }
 
+.trailer-box {
+  text-align: center;
+}
+
+
 .trailer-bnt {
-  font-family: HeadlandOne;
-  color: var(--button-color);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.25;
   border-radius: 45px 0px;
   border: 3px solid var(--button-color);
   background: var(--backgroundbnt-color);
-  width: 260px;
-  height: 80px;
-  flex-shrink: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 390px;
-  margin-bottom: 391px;
-  margin-right: 590px;
-  margin-left: 590px;
+  color: var(--button-color);
+  font-family: HeadlandOne;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.25;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  padding-left: 19px;
 }
 
 /* all energy */
-
 .energy {
   border-bottom: 2px solid yellow;
+  padding-top: 75px;
+  padding-bottom: 10px;
 }
+
+.energy-box {
+text-align: center;
+}
+
 
 .energy-title {
   color: var(--desk-color);
@@ -230,8 +233,7 @@ border-bottom: 2px solid yellow;
   font-size: 36px;
   font-weight: 400;
   line-height: 1.25;
-  margin-top: 75px;
-  text-align: center;
+  margin-bottom: 16px;
 }
 
 .energy-avtor {
@@ -240,18 +242,9 @@ border-bottom: 2px solid yellow;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
-  margin-top: 16px;
-  text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
-.energy-img {
-  display: flex;
-  text-align: center;
-  margin-top: 8px;
-  margin-bottom: 10px;
-  margin: auto;
-}
 
 /* learn */
 
@@ -432,15 +425,28 @@ margin-bottom: 45px;
 
 /* footer */
 
-.footer-logo {
-  width: 183px;
-  height: 70px;
-  flex-shrink: 0;
+.footer {
+  background: url(../img/header-footer.jpg) lightgray 0px -255.593px / 100% 336.781% no-repeat;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
-.palka {
-  width: 2px;
+.footer-box {
+display: flex;
+}
+
+.footer-logo {
+margin-right: 80px;
+}
+
+.footer-palka {
   height: 153px;
+  border: 1px solid var(--title-color);
+  margin-right: 80px;
+}
+
+.footer-address {
+display: flex;
 }
 
 .footer-faq {
@@ -451,13 +457,9 @@ margin-bottom: 45px;
   line-height: 1.2;
 }
 
-.footer-tire {
-  width: 269px;
-  height: 0px;
-  flex-shrink: 0;
-}
 
-.footer-address {
+
+.footer-email {
   color: var(--title-color);
   font-family: Inter;
   font-size: 20px;
