@@ -35,7 +35,9 @@ outline: 1px solid red;
   border-bottom: 3px solid var(--title-color);
   background-image: url(../img/header-footer.jpg);
   background-repeat: no-repeat;
-background-size: cover;
+  background-size: cover;
+  padding-top: 39px;
+  padding-bottom: 39px;
 }
 
 .header-box {
