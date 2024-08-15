@@ -29,7 +29,6 @@
 
 .header {
   background-repeat: no-repeat;
-
   border-bottom: 3px solid var(--title-color);
   background-image: linear-gradient( rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/header-footer.jpg);
   background-repeat: no-repeat;
@@ -341,51 +340,52 @@ padding-bottom: 75px;
 /* footer */
 
 .footer {
-  background: url(../img/header-footer.jpg) lightgray 0px -255.593px / 100% 336.781% no-repeat;
+  background-repeat: no-repeat;
+  background-image: linear-gradient( rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/header-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 35px;
   padding-bottom: 35px;
 }
 
-.footer-box {
+.footer-wrap {
 display: flex;
+align-items: center;
+gap: 80px;
 }
 
 .footer-logo {
-margin-right: 80px;
+  width: 183px;
+  height: 70px;
 }
 
 .footer-palka {
+  width: 1px;
   height: 153px;
-  border: 1px solid var(--title-color);
-  margin-right: 80px;
+  background-color: var(--title-color);
 }
 
-.footer-address {
-display: flex;
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.footer-faq {
+.footer-link {
   color: var(--title-color);
+  text-align: justify;
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
 }
 
-
-
-.footer-email {
+.footer-data {
   color: var(--title-color);
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.2;
-}
-
-.footer-data-made {
-  color: var(--title-color);
+  text-align: center;
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.2;
+margin-left: 131px;
 }
