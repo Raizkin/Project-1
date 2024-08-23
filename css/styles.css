@@ -23,7 +23,7 @@
   padding-left: 12px;
   padding-right: 12px;
   margin: 0 auto;
-  outline: 1px solid red;
+
 }
 /* header */
 
@@ -76,7 +76,6 @@ align-items: center;
 
 /* join clan */
 .hero {
-  border-bottom: 2px solid yellow;
   padding-top: 180px;
   padding-bottom: 179px;
   background-image: url(../img/hero-background.jpg);
@@ -150,7 +149,6 @@ width: 34px;
 /* more people */
 
 .more-people {
-border-bottom: 2px solid yellow;
 padding-top: 75px;
 padding-bottom: 10px;
 }
@@ -180,7 +178,6 @@ padding-bottom: 10px;
 
 /* trailer */
 .trailer {
-  border-bottom: 2px solid yellow;
   background: url(../img/trailer-background.jpg) lightgray 50% / cover no-repeat;
   padding-top: 330px;
   padding-bottom: 331px;
@@ -208,7 +205,6 @@ padding-bottom: 10px;
 
 /* all energy */
 .energy {
-  border-bottom: 2px solid yellow;
   padding-top: 75px;
   padding-bottom: 10px;
 }
