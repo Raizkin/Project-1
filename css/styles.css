@@ -9,10 +9,6 @@
   --backgroundbnt-color: #0b0e66;
 }
 
-/* font-family: "Inter", sans-serif; */
-/* font-family: "Headland One", serif; */
-/* font-family: "Hammersmith One", sans-serif; */
-
 .body {
   font-family: "Inter", sans-serif;
 
@@ -25,7 +21,7 @@
   margin: 0 auto;
 
 }
-/* header */
+
 
 .header {
   background-repeat: no-repeat;
@@ -74,7 +70,6 @@ align-items: center;
   padding: 9px 38px;
 }
 
-/* join clan */
 .hero {
   padding-top: 180px;
   padding-bottom: 179px;
@@ -146,8 +141,6 @@ width: 34px;
   width: 50px;
   }
 
-/* more people */
-
 .more-people {
 padding-top: 75px;
 padding-bottom: 10px;
@@ -175,8 +168,6 @@ padding-bottom: 10px;
   margin-bottom: 8px;
 }
 
-
-/* trailer */
 .trailer {
   background: url(../img/trailer-background.jpg) lightgray 50% / cover no-repeat;
   padding-top: 330px;
@@ -203,7 +194,6 @@ padding-bottom: 10px;
   padding-left: 19px;
 }
 
-/* all energy */
 .energy {
   padding-top: 75px;
   padding-bottom: 10px;
@@ -212,7 +202,6 @@ padding-bottom: 10px;
 .energy-box {
 text-align: center;
 }
-
 
 .energy-title {
   color: var(--desk-color);
@@ -231,9 +220,6 @@ text-align: center;
   line-height: 1.2;
   margin-bottom: 8px;
 }
-
-
-/* learn */
 
 .learn {
 padding-top: 58px;
@@ -297,8 +283,6 @@ justify-content: space-between;
   margin-top: 40px;
 }
 
-/* mother */
-
 .mother {
 padding-top: 75px;
 padding-bottom: 75px;
@@ -331,8 +315,6 @@ padding-bottom: 75px;
   margin-bottom: 10px;
   margin: auto;
 }
-
-/* footer */
 
 .footer {
   background-repeat: no-repeat;
